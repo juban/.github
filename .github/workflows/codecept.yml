@@ -2,7 +2,7 @@ name: Tests
 on:
   workflow_call:
     inputs:
-      php_versions:
+      php_version:
         required: true
         type: string
 
