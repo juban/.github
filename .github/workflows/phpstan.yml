@@ -26,7 +26,7 @@ jobs:
         run: composer install --no-interaction --no-ansi --no-progress
       - name: Check .env.example.mysql exists
         id: check_files
-        uses: andstor/file-existence-action@v1
+        uses: andstor/file-existence-action@v2
         with:
           files: "tests/.env.example.mysql"
       - name: Copy tests .env
